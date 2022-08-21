@@ -24,8 +24,8 @@ def solutionCaptcha_process():
 
         result = PuzleSolver(background, piece)
 
-        return result.get_position()
-        
+        return str(result.get_position())
+
     else:
         return "Server OK"
 
